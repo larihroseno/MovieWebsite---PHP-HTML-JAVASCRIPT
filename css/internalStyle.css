@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+html {
+  background-color: #e0a21b;
+
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+height: 60px;
+}
+
+li {
+  float: left;
+  color: #b81007;
+
+}
+
+li.nav-item{
+ color:#b81007;
+  background-color:#b81007;
+}
+
+li a {
+height: 60px;
+  display: block;
+  color: #b81007;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-family: "Ubuntu";
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color:white;
+  color: #b81007 ;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #b81007;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ height: 30px;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.internal {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 15% 0%;
+}
+
+.container{
+
+    color: #fff;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.zoom:hover {
+  transform: scale(1.09);
+}
+
+
+#cover{
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+}
+
+.left {
+    display:inline;
+    float: left;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.right {
+    display:inline;
+    float: left;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.back {
+    position: fixed;
+    bottom: 0;
+    font-family: "Ubuntu";
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color:#e0a21b;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #bf0516;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f5bc5b;
+}
+
+
+
+th {
+  background-color: White;
+  color: white;
+  padding: 1px;
+  text-align: center;
+}
+
+
+tr:hover {background-color: #f5bc5b;}
+
+.fixed_header{
+    width: 200px;
+
+    margin-left: 300px;
+    margin-right: 200px;
+    text-align: center;
+
+}
+
+.fixed_header tbody{
+
+  display:block;
+  width: 90%;
+  overflow: auto;
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tbody {
+  background-color: White;
+}
+
+
+.fixed_header thead {
+  background: #b81007;
+  color:#fff;
+  text-align: center;
+
+}
+
